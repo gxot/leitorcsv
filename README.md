@@ -12,7 +12,7 @@
 - **Python 3.10** ou superior
 - **Node.js 18** ou superior
 
-## Tutorial para o uso  
+## Tutorial para o uso:   
 Abra o terminal aonde deseja clonar o repositório e dê os seguintes comandos:
 ```
 git clone https://github.com/gxot/leitorcsv
