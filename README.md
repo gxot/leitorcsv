@@ -34,5 +34,5 @@ npm run dev
 ```  
 Acesse: http://localhost:3000/  
   
-(Para fechar o projeto feche os dois terminais)
+**(Para fechar o projeto feche os dois terminais)**
 
