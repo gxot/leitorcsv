@@ -1,19 +1,25 @@
-# Leitor CSV (Python + Next.js)
+📊 Leitor CSV (Python + Next.js)
+📌 Descrição:
+Aplicação web para leitura e visualização de arquivos CSV.
+Através de uma interface simples, o usuário pode fazer upload de arquivos e visualizar os dados de forma organizada.
 
-## Funcionalidades:
-- Upload de Arquivos CSV via interface web
-- Visualização de dados em diferentes formatos
-  
-## Tecnologias:
-- **Frontend:** Next.js, Tailwind CSS
-- **Backend:** Python, Pandas, FastAPI
+⚙️ Funcionalidades:
+Upload de arquivos CSV via interface web
 
-## Pré-Requisitos: 
-- **Python 3.10** ou superior
-- **Node.js 18** ou superior
+Visualização dos dados em diferentes formatos
 
-## Tutorial para o uso:   
-Abra o terminal aonde deseja clonar o repositório e dê os seguintes comandos:
+🛠 Tecnologias:
+Frontend: Next.js, Tailwind CSS
+
+Backend: Python, FastAPI, Pandas
+
+✅ Pré-Requisitos:
+Python 3.10 ou superior
+
+Node.js 18 ou superior
+
+🚀 Como rodar o projeto:
+Abra o terminal no diretório onde deseja clonar o repositório e execute:
 ```
 git clone https://github.com/gxot/leitorcsv
 cd leitorcsv
@@ -24,15 +30,15 @@ source venv/bin/activate (Linux/Mac)
 venv\Scripts\activate (Windows)
 --------------------
 pip install -r requirements.txt
-uvicorn main:app --reload  
+uvicorn main:app --reload
 ```
+
 Abra outro terminal dentro da pasta "leitorcsv" e dê esses comandos:
 ```
 cd frontend
 npm install
 npm run dev
-```  
+```
 Acesse: http://localhost:3000/  
-  
-**(Para fechar o projeto feche os dois terminais)**
 
+❌ Para encerrar: Basta encerrar os dois terminais
